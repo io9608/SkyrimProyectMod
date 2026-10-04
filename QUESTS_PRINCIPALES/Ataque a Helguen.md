@@ -1,6 +1,3 @@
-# Quest, Subquest, Datos, New Info
-
-## Quest Principal - Ataque del Dragon en Helguen
 
 - Timeline
   - 4 semanas ingame para Preparacion
@@ -16,22 +13,3 @@
   - Finalizacion de un evento para el entierro de los soldados caidos en el ataque
   - Se refuerza la defensa de la ciudad (Nueva Estetica, Whiterun renovado)
   - Se continua con la quest de los barbas grises
-
-## Cambios en la Ciudad
-
-- Adicion de Tropas Elites/Caballeros.
-- Luego del Ataque del Dragon:
-  - Nuevos Eventos de tiempo limitado, ataque de Bandidos, defensa de la ciudad
-  - Nuevas subquest disponibles, intereses amorosos, Ciudadano modelo, Amantes, El desconocido, todas estas segun varios triggers 
-
-## Cambios visuales 
-
-- Afueras de la ciudad  mas viviendas 
-- Division de barrios pobres, acaudalados, nobles 
-- Gremio de Aventureros, Gremio de Comerciantes(Global), Gremio de Cazadores
-- Arreglo en las alcantarillas de Whiterun Mercado Negro
-
-## Side-Quests
-
-> Si se comienza con alternative Start
-- Para entrar en la ciudad principal se necesita de cierta reputacion 

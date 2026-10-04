@@ -1,36 +1,3 @@
-# The Pale (Dawnstar)
-- Descripcion:
-  - Mejoras en la I.A de los npc, sistema de reconocimiento facial, mejoras de comportamiento segun reputacion del player, sistema de emociones en los npc, cambio de actividades segun horarios, nuevas quest alternativas (traicion, drama, suspenso, terror ect...)
-  - Nuevo sistema economico en todo Skyrim, cambios en precios segun localizaciones, cambios en demandas segun epocas, inflacion de productos segun actividades del player
-  - Nuevos requisitos para especializarse en ciertas areas y para la recoleccion de minerales, plantas, pieles y otros productos primarios
-  - Cambios en trabajos Secundarios en el player , herreria , encantamiento, alquimia, caza etc....
-  - Introduccion de nuevas facciones y trabajos secundarios, mercaderes, exploradores, joyeros etc...
-  - Nuevas tropas elites en los ejercitos de cada ciudad principal, cambios de bandos, reclutamientos
-  - Mejoras en quest Principales y subquest
-  - Nuevo Modo de Creacion de Casas o Ciudades
-  - Nuevos Eventos en cada localizacion, organizacion del Timeline Flujo de Tiempo real, actividades seguiran ocurriendo sin la necesidad del playerObjetivos del Proyecto
-
-
-## Cambios Globales
-
-- Nuevas facciones en el juego Globales
-  - <a href="/Global/Aventureros_guild.md">Gremio de Aventureros</a>: Encargado de la Tarea de controlar las Side-Quest, Nuevas Tareas y demas, otorga al player un nivel de Fama por ciudad si se excede de un % este llegara a tener una fama global
-    - Niveles de Fama:
-    - Aventurero Novato (Bronce): Inicio del Player la Inscripcion puede Costar ??? , de 1-10 lvl
-    - Aventurero Adepto (Plata): Alcanzado por el Player luego de cierta reputacion solo puede avanzar cuando el maestro de un gremio acceda y le otorgue alguna mision especial, de  20-40 lvl
-    - Aventurero Profesional (Oro): nivel de fama superior, Nivel de fama Global bajo, misiones mas dificiles, puede ser requerido por otras ciudades para misiones especificas de nivel Global-Bajo
-    - Aventurero Veterano (Diamante): Nivel de Fama global medio, misiones de alto nivel, eliminacion de monstruos especificos y unicos, mayor indice de pago, es reconocido en la mayoria de los poblados, misiones en otras ciudades disponibles, tiene recompensas adicionales en algunas misiones
-    - Aventurero Leyenda (Adamantita): Nivel de fama global Alto, dispone de privilegios esclusivos en ciertos lugares, misiones de monstruos unicos y nombrados, grandes recompensas, creacion de poblados disponibles puede ser Senor de pequenos poblados
-    - Aventurero Mitico (????): Nivel de fama global superior, dispone de privilegios nobles en todas las ciudades,su fama es reconocida en todo skyrim, misiones de dificultades unicas, subyugacion de grandes grupos de monstruos, Caza de criminales especiales, Disponible la creacion de un poblado, puede presentarse ante los Jarl de las grandes ciudades
-
-  - <a href="/Global/Comerciantes_guild.md">Gremio de comerciantes</a>: Encargado de la economia global en skyrim, todos los npc comerciantes estan registrados a el, debe tener cierto nivel de fama y habilidades para poder entrar , mejora de precios de venta y compras de materiales objetos etc..., disponible aprender de ciertas aptitudes especiales ocultas, si su nivel de fama alcanza cierto nivel puede llegar a ser requerido para materiales especiales
-
-  - <a href="BlackMarket_guild.md">Mercado Negro</a>: Disponible en ciertas localizaciones , se venden armas , armaduras, escudos, materiales, que no estan disponibles comunmente, es manejado por bandidos, forajidos, y individuos fuera de la ley, nuevas historias disponibles
-
-- Nuevo sistema de Subclases mejorado, experiencias y aprendisajes diversos anadiendo mas gameplay y horas de juego, subclase pincipales <a href="/Global/Sub_Clases.md"> --> Aqui </a>
-
-## Division Territorial de Skyrim y Sistema Economico Dinamico Global
-
 ### 1. REINO DE HAAFINGAR (Solitude)
 
 - **Capital:** `Solitude | Jarl-Rey: Elisif / Erikur`
@@ -165,7 +132,7 @@
 
 - **Zona disputada:** Frontera con Eastmarch (conflictos de caza y minería)
 
-### 1. REINO DE WHITERUN (  <a href="Whiterun/Guia_Trabajo_Whiterun.md">Whiterun</a>)
+### 1. REINO DE WHITERUN
 
 - **Capital:** Whiterun | Jarl-Rey: Balgruuf / Vignar
 - **Característica:** Centro comercial, tierras fértiles, posición estratégica central
@@ -254,17 +221,3 @@ Característica: Magia, ruinas, costa helada, aislamiento
   - College of Winterhold (neutral mágico o aliado)
 
 Zona disputada: La costa con The Pale (naufragios y tesoros)
-
-### SISTEMA DE VASALLAJE PARA MOD
-
-- **Jerarquía propuesta:**
-  - Rey-Jarl (cabeza del reino)
-  - Thanes (gobernadores de poblados grandes)
-  - Housecarls (protectores de aldeas)
-  - Milicia local (guardias de asentamientos)
-
-- **Rutas de conflicto estratégicas:**
-  - Whiterun vs The Reach – Control del paso de la colina y Old Hroldan
-  - Eastmarch vs The Rift – Disputa por las minas de oro de Shor's Stone
-  - Haafingar vs The Pale – Control del puerto de Dawnstar vs Solitude
-  - Falkreath vs Hjaalmarch – Límites del pantano y recursos madereros
