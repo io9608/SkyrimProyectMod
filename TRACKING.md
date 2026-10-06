@@ -267,3 +267,185 @@ Completitud: 7% (por ahora)
 **Última actualización:** 2026-10-03 19:45 UTC  
 **Responsable:** @io9608  
 **Versión:** 1.0
+
+---
+
+### 2026-10-06 - Desarrollo de Timeline Cronológico Completo
+
+**Responsable:** @io9608  
+**Tipo:** Documentation  
+**Estado:** Completado  
+**Afecta a:** Quest_Principales/Timeline_Global.md, Lore/Calendario_Tamriel.md
+
+**Descripción:**
+
+- Creado timeline detallado 4E 201-208 (8 años de gameplay)
+- Definidas 12 festividades lore-accurate con fechas exactas (Morning Star a Evening Star)
+- Establecido calendario Tamriélico con 7 días de semana y estaciones
+- Integradas todas las questlines principales (Main Quest, Civil War, Dawnguard, Dragonborn, Colegio, Compañeros, Thieves Guild, Dark Brotherhood)
+- Definidos puntos de convergencia entre questlines y dependencias cronológicas
+- Añadido sistema de duración de misiones por tipo (Main Quest: 3-7 días, etc.)
+- Creado sistema de eventos mundiales dinámicos por estación
+
+**Notas:**
+
+- Timeline sirve como backbone para el sistema de eventos automáticos
+- Las fechas de festivales permiten triggers para quests especiales
+- Compatible con sistema de estacionalidad económica
+
+---
+
+### 2026-10-06 - Estructura Económica de los 9 Holds
+
+**Responsable:** @io9608  
+**Tipo:** Documentation  
+**Estado:** Completado  
+**Afecta a:** Global/Economia_Dinamica.md, Hold_Whiterun.md, Hold_[Otros].md
+
+**Descripción:**
+
+- Documentada estructura económica completa de los 9 holds de Skyrim
+- Definidos recursos naturales, sectores productivos y especialización por región
+- Creada tabla de exportaciones/importaciones críticas para cada hold
+- Mapeados todos los poblados vasallos (~40 asentamientos)
+- Establecidas rutas comerciales principales y puntos de control
+- Definidos problemas económicos únicos por hold (ej: Forsworn en Reach, Gran Colapso en Winterhold)
+- Creado resumen comparativo de fortalezas/debilidades económicas
+
+**Notas:**
+
+- Markarth: Minería dominante (plata, oro)
+- Whiterun: Agricultura (cereales, hidromiel)
+- Solitude: Comercio marítimo y lujo
+- Riften: Agricultura fértil + contrabando
+- Dawnstar: Hierro y pesca ártica
+- Morthal: Sal y alquimia
+- Falkreath: Silvicultura y servicios funerarios
+- Windhelm: Construcción naval y pieles
+- Winterhold: Conocimiento mágico (dependiente)
+
+---
+
+### 2026-10-06 - Sistema Económico Dinámico Centralizado
+
+**Responsable:** @io9608  
+**Tipo:** Feature/Documentation  
+**Estado:** Completado (diseño) / En Progreso (implementación)  
+**Afecta a:** Global/Economia_Dinamica.md, Facciones/Gremio_Comerciantes.md
+
+**Descripción:**
+
+- Diseñado Gremio de Comerciantes como facción centralizadora de variables económicas
+- Creado sistema de 5 categorías de bienes (Alimentos, Metales, Alquimia, Materiales, Lujos)
+- Implementado algoritmo de precios: Base × Global × Estación × Local × Jugador × Eventos
+- Definidas variables maestras globales (fSupply, fDemand por categoría)
+- Creado sistema de especialización por hold (multiplicadores de producción)
+- Diseñado impacto del jugador: ventas masivas saturan mercado, compras masivas generan escasez
+- Establecido sistema de caché para optimización (recálculo solo cuando necesario)
+- Creada interfaz UI propuesta para terminal de mercado en sedes del Gremio
+
+**Notas:**
+
+- 9 sedes del Gremio (una por capital), cada una con Maestre único
+- Sistema de rangos: Aprendiz → Comerciante → Mercader → Magnate → Maestre
+- Precios limitados entre 25% y 400% del base para evitar exploits
+- Recuperación natural de oferta/demanda: 3-14 días según categoría
+
+---
+
+### 2026-10-06 - Sistema de Plantas e Ingredientes por Zona
+
+**Responsable:** @io9608  
+**Tipo:** Feature  
+**Estado:** Completado (diseño)  
+**Afecta a:** Global/Economia_Dinamica.md, Mecanicas/Alquimia_Regional.md
+
+**Descripción:**
+
+- Definidas 10 zonas alquímicas (Tundra, Bosque Templado, Bosque Boreal, Montaña, Ártico, Costera, Pantano, Volcánica, Cueva, Río)
+- Creada tabla de plantas con zonas preferidas, estaciones de crecimiento y rareza
+- Implementado modificador de precio por zona: 0.7x (abundante) a 5.0x (imposible/importado)
+- Definido sistema de estacionalidad para ingredientes (ej: Deathbell abundante en otoño en pantanos)
+- Creado cálculo de precio de ingredientes: Base × Zona × Estación × Oferta × Demanda
+
+**Notas:**
+
+- Nirnroot rojo (Crimson) único de cuevas específicas
+- Deathbell barato en Morthal (pantano), caro en Whiterun (tundra)
+- Sistema permite arbitraje: comprar barato en zona abundante, vender caro en zona rara
+
+---
+
+### 2026-10-06 - Eventos Dinámicos con Facciones (Thieves Guild/Dark Brotherhood)
+
+**Responsable:** @io9608  
+**Tipo:** Feature  
+**Estado:** Completado (diseño)  
+**Afecta a:** Global/Eventos_Dinamicos.md, Facciones/Integracion_Facciones.md
+
+**Descripción:**
+
+- Diseñado sistema de eventos aleatorios vinculados a facciones existentes
+- Thieves Guild: Contrabando automático (reduce precios en destino), robo al jugador (si almacena bienes), caravanas asaltadas
+- Dark Brotherhood: Contratos de asesinato de competidores comerciales, chantaje a mercaderes, sabotaje
+- Eventos de Guerra Civil: Embargos, crisis de suministro, precios en ciudades sitiadas ×3
+- Eventos de mercado: Cárteles de precios, manipulación, crisis de escasez
+- Probabilidades escalonadas según actividad del jugador y estado del mundo
+
+**Notas:**
+
+- Eventos notificados mediante cartas, rumores en tabernas, o mensajeros
+- Algunos eventos generan quests opcionales (ej: "Recuperar mercancía robada")
+- Sistema de consecuencias: participar en cártel genera reputación pero riesgo de exposición
+
+---
+
+### 2026-10-06 - Decisión #6: Sistema de Eventos Aleatorios vs Scriptado
+
+**Fecha:** 2026-10-06  
+**Estado:** ✅ Aprobado
+
+**Descripción:** Se implementará un híbrido: eventos principales scriptados (timeline) + eventos secundarios aleatorios (facciones). Los eventos de Thieves Guild y Dark Brotherhood serán aleatorios (5-20% probabilidad) para aumentar rejugabilidad, mientras que eventos de Civil War y Main Quest seguirán el timeline fijo.
+
+**Alternativas consideradas:**
+
+- A: Todo scriptado (rechazado - predecible)
+- B: Todo aleatorio (rechazado - caótico)
+- C: Híbrido con pesos (aprobado)
+
+**Impacto:** Requiere sistema de RNG con semilla guardada, pero aumenta inmersión
+
+---
+
+### 2026-10-06 - Decisión #7: Anti-Thalmor como Tono Narrativo
+
+**Fecha:** 2026-10-06  
+**Estado:** ✅ Aprobado (humorístico)
+
+**Descripción:** El mod mantendrá referencias lore-friendly anti-Thalmor, incluyendo opciones de diálogo y posiblemente quests de resistencia contra el Dominio Aldmeri. Los Thalmor serán antagonistas secundarios en ciertas ramas de quests.
+
+**Notas:**
+
+- Compatible con lore de Skyrim (Stormcloaks, culto clandestino a Talos)
+- No afecta mecánicas principales, solo flavor text y opciones de rol
+
+---
+
+## Actualización de Métricas de Progreso
+
+```
+Sistemas Base:       3/3 iniciados,  1/3 completados  (33%)
+Quests Principales: 3/3 iniciados,  0/3 completados  (0%)
+Ubicaciones:        1/9 completado, 8/8 documentados (100% diseño)
+Facciones:          1/3 iniciados,  0/3 completados  (33%)
+Técnico:            2/2 completados                   (100%)
+Economía:           1/1 completado (diseño)          (100%)
+```
+
+**Progreso General: ~25% (diseño documentación)**
+
+---
+
+**Última actualización:** 2026-10-06  
+**Responsable:** @io9608  
+**Versión:** 1.1
