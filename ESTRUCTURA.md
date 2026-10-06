@@ -12,7 +12,6 @@ Este documento explica la estructura completa del repositorio y cómo navegar po
 SkyrimProyectMod/
 │
 ├── 📄 README.md                          (Presentación del proyecto)
-├── 📄 INDEX.md                           (Índice general - este doc)
 ├── 📄 TRACKING.md                        (Registro de cambios y decisiones)
 ├── 📄 CONTRIBUTING.md                    (Guía de contribución)
 │

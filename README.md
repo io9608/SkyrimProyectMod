@@ -24,6 +24,10 @@ Este proyecto es una revisión completa y profunda del mod de Skyrim que toca as
   - Nuevos requisitos para especializarse en ciertas areas y para la recoleccion de minerales, plantas, pieles y otros productos primarios
   - Cambios en trabajos Secundarios en el player , herreria , encantamiento, alquimia, caza etc....
   - Introduccion de nuevas facciones y trabajos secundarios, mercaderes, exploradores, joyeros etc...
+---
+## Timline
+
+
 
 ---
 
@@ -40,7 +44,7 @@ Este proyecto es una revisión completa y profunda del mod de Skyrim que toca as
 | 2.1   |                           |               |                                               |              |            |                      |                                           |                               |
 | 3     | **UBICACIONES:**          |               |                                               |              |            |                      |                                           |                               |
 | 3.1   | **WHITERUN**              |               |                                               |              |            |                      |                                           |                               |
-|       | Guía de Trabajo           |               | `Whiterun/Guia_Trabajo_Whiterun.md`           | ✅ Completo   | 100%       | 2026-10-03           | Estructura base, revisar integración      | [[Whiterun/Whiterun_City]]     |
+|       | Guía de Trabajo           |               | `Whiterun/Guia_Trabajo_Whiterun.md`           | ✅ Completo   | 100%       | 2026-10-03           | Estructura base, revisar integración      | [[Whiterun_City]]    |
 | 3.1.1 |                           | **Distritos** |                                               |              |            |                      |                                           |                               |
 |       | Distritos de la Ciudad    |               | `Whiterun/Distritos.md`                       | 🔴 Pendiente | 0%         | -                    | Requiere diseño de barrios                |                               |
 | 3.1.2 |                           | **Scripts**   |                                               |              |            |                      |                                           |                               |
